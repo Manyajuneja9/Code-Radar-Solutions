@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    float a,b,,c,d;
-    int choice;
+    int a,b,c;
+    float average;
     printf("Enter three integers:");
-    scanf("%f,%f,%f",&a,&b,&c);
+    scanf("%d,%d,%d",&a,&b,&c);
 
-    result=(a+b+c/3);
-    printf("Average: %.2f\3",a,b,c);
+    result=(a+b+c/3.0);
+    printf("Average: %.2f\n",a,b,c,result);
     return 0;
 }

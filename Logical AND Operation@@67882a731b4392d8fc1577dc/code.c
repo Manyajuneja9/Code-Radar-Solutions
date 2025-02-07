@@ -3,7 +3,7 @@
 int main() {
     int a,b;
     scanf("%d %d");
-    if(a&&b){
+    if(a>0 && b>0){
         printf("True");
     }
     else{

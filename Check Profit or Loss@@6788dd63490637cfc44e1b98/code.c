@@ -13,6 +13,6 @@ int main() {
     else{
         printf("No Profit No Loss");
     }
-    printf("%s", welcome());
+
     return 0;
 }
